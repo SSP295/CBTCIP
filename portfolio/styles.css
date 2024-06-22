@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;;
+    color: #333;
+    line-height: 1.6;
+    background: #f4f4f4;
+}
+
+header {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    position: relative;
+}
+
+header .profile-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+header .profile-image img:hover {
+    transform: scale(1.1);
+}
+
+header h1 {
+    margin: 20px 0 10px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+
+.contact-info, .projects {
+    padding: 40px 20px;
+    margin: 40px auto;
+    max-width: 900px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contact-info h2, .projects h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #6e8efb;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.contact-info a {
+    color: #6e8efb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #a777e3;
+}
+
+
+.projects .project {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    transition: background 0.3s ease;
+}
+
+.projects .project:hover {
+    background: #f9f9f9;
+}
+
+.projects .project h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.projects .project p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.projects .project a {
+    color: #6e8efb;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.projects .project a:hover {
+    color: #a777e3;
+}
+
+.projects .project:last-child {
+    border-bottom: none;
+}
